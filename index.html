@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        div{
+            border:4px groove red ;
+            height: 350px;
+            width: 50%;
+            margin-right: auto;
+            margin-left: auto;
+            margin-top: 100px;
+        }
+        .nu{
+            height: 40px;
+            width: 30%;
+            margin-left: 50px;
+
+        }
+        button{
+            height: 40px;
+            width: 25%;
+            background-color: blue;
+            margin-left: 200px;
+          color: white;
+          margin-top: 30px;
+
+        }
+    </style>
+    <title>Document</title>
+  
+</head>
+<body>
+    
+<div>
+    <h1 style="color: blueviolet; text-align:center">Quiz Time</h1>
+    
+    <input type="number" placeholder="Enter number of students: " class="nu" id="inputValue">
+
+    <br><br>
+   <button  onclick="callFunction()">Submit</button>
+
+   
+   <button  onclick="displayRandomName()">Click to get name</button>
+   <h3 id="result" style="font-style: italic; color:green; text-align:center;"></h3>
+
+    </div>
+    <script src="quiz_nu.js"></script>
+</body>
+</html>
